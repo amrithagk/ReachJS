@@ -1,0 +1,89 @@
+body {
+  background-color: #464749;
+  color: white;
+}
+
+.formtile {
+  background-color: #282c34;
+  box-shadow: 2px 2px 20px 6px rgb(21, 20, 20);
+  border-radius: 4px;
+  margin: 40px;
+  padding: 20px;
+  color: #61dafb;
+}
+
+.formlabel {
+  margin: 10px;
+  padding: 20px;
+  font-size: 20px;
+  color: white;
+}
+
+table{
+  border-spacing: 10px;
+}
+
+.inputbox {
+  margin: 8px;
+  padding: 20px;
+  width: 350px;
+  height: 20px;
+  border: lightgrey solid 0.5px;
+  border-radius: 25px;
+}
+
+.inputarea {
+  padding: 20px;
+  width: 350px;
+  height: 60px;
+  border: lightgrey solid 0.5px;
+  border-radius: 30px;
+}
+
+select{
+  margin-left: 10px;
+  color: black;
+  width: 390px;
+  height: 40px;
+  border: lightgrey solid 0.5px;
+  border-radius: 25px;
+}
+
+a {
+  color: white;
+}
+
+legend {
+  font-family: "Franklin Gothic Medium";
+  font-size: 24px;
+}
+
+button {
+  background-color: rgb(83, 234, 239);
+  width: 180px;
+  height: 60px;
+  margin-left: 50px;
+  font-size: 30px;
+  font-style: bold;
+  border-radius: 25px;
+  box-shadow: 2px 3px 2px 2px rgb(31, 30, 30);
+  border-color: rgb(83, 234, 239);
+  border-style: hidden;
+  cursor: pointer;
+}
+button:hover {
+  background-color: rgb(15, 166, 171);
+  box-shadow: 2px 3px 2px 2px rgb(31, 30, 30);
+  border-color: rgb(83, 234, 239);
+  border-style: hidden;
+  cursor: pointer;
+}
+
+.consent{
+  margin-left: 10%;
+}
+
+.latlonglink{
+  
+  border: black 2px solid;
+}

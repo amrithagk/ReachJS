@@ -1,0 +1,71 @@
+body{
+    background-color: #464749;
+    color:white;
+}
+
+.container-category{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    margin-left: 30px;
+}
+
+.categoryCard{
+    background-color: white;
+    box-shadow: 2px 2px 20px 6px rgb(31, 30, 30);
+    border-radius: 4px;
+    margin: 40px auto;
+    padding: 20px;
+    width: 300px;
+    height: 200px;
+    align-items: center;
+    vertical-align: middle;
+    transition-duration: 500ms;
+}
+
+.categoryCard:hover{
+    transform: scale(1.2);
+    transition-duration: 500ms;
+}
+
+.fruit{
+    background-image: url("../../public/fruits.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.vegetable{
+    background-image: url("../../public/veggies.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.greens{
+    background-image: url("../../public/greens.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.groceries{
+    background-image: url("../../public/grocery.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.accessories{
+    background-image: url("../../public/accs.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.homessentials{
+    background-image: url("../../public/he.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: black;
+}
+
+.textmiddle{
+    margin-top: 70px;
+    color: black;
+    font-size: 40px;
+    font-weight:bold;
+    text-align: center;
+    background-color: white;
+    vertical-align: center;
+    font-family: "Monospace";
+}

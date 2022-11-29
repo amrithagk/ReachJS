@@ -1,0 +1,35 @@
+/* style the sellers div */
+.Sellers {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 3% auto;
+    margin-top: 0;
+    border-radius: 10px;
+    box-shadow: 0 0 100px 0 rgba(4, 4, 4, 0.4);
+    overflow: hidden;
+    padding: 0;
+}
+
+/* style the vendorbox */
+.vendorbox {
+    background-color: rgb(88, 107, 109);
+    border: 1px solid #e5e5e5;
+    border-radius: 3px;
+    box-shadow: 0 1px 2px rgba(0,0,0,.05);
+    margin-bottom: 20px;
+    padding: 20px;
+    position: relative;
+    width: 600px;
+    font-size: 25px;
+    border-spacing: 15px;
+    transition: 0.5s;
+}
+
+/* style the vendorbox hover to not overlap the navbar */
+.vendorbox:hover {
+    transform: scale(1.1);
+    transition: 0.5s;
+    cursor: pointer;
+}

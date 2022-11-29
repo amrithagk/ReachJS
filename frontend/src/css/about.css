@@ -1,0 +1,30 @@
+body {
+    background-color: #464749;
+    color: white;
+  }
+
+.about {
+
+    width: 53%;
+    height: 80vh;
+    justify-content: center;
+    align-items: center;
+    margin: 10% auto;
+    margin-top: 50px;
+    border-radius: 10px;
+    box-shadow: 0 0 50px 0 rgba(4, 4, 4, 0.4);
+    padding: 20px;
+    background-color: #282c34;
+}
+
+.title {
+    font-size: 50px;
+    font-family: Courier, monospace;
+    color: #61dafb;
+}
+
+p {
+    font-size: 20px;
+    text-align: center;
+
+}
