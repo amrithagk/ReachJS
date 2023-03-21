@@ -7,7 +7,7 @@ const Vendors = require("./models/vendorModel.js");
 
 dotenv.config();
 
-mongoose.connect("mongodb+srv://amrithagk:fjoSNAQxsIBtvenG@cluster0.skymq2d.mongodb.net/VendorDetails?retryWrites=true&w=majority")
+mongoose.connect("")
     .then(()=>{console.log("Connection successful");})
     .catch((err)=>{console.log("Connection unsuccessful\n", err.message);}
 );
